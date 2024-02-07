@@ -909,6 +909,165 @@
 	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/spearson25/leaf_workshops/main/exercises/Heresies/Joanna_Russ_exercise.xml?person_annotation_20240207175321478",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-07T22:53:21.478Z",
+	"dcterms:modified": "2024-02-07T22:53:21.478Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/spearson25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Spencer Pearson"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/spearson25/leaf_workshops/main/exercises/Heresies/Joanna_Russ_exercise.xml?person_annotation_20240207175321478#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/spearson25/leaf_workshops/main/exercises/Heresies/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/spearson25/leaf_workshops/main/exercises/Heresies/Joanna_Russ_exercise.xml?person_annotation_20240207175321478#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName[7]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q17892",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/spearson25/leaf_workshops/main/exercises/Heresies/Joanna_Russ_exercise.xml?person_annotation_20240207175428721",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-07T22:54:28.721Z",
+	"dcterms:modified": "2024-02-07T22:54:28.721Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/spearson25",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Spencer Pearson"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/spearson25/leaf_workshops/main/exercises/Heresies/Joanna_Russ_exercise.xml?person_annotation_20240207175428721#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/spearson25/leaf_workshops/main/exercises/Heresies/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/spearson25/leaf_workshops/main/exercises/Heresies/Joanna_Russ_exercise.xml?person_annotation_20240207175428721#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName[8]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q134929",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -926,7 +1085,7 @@
          <byline><persName key="Joanna Russ" ref="http://www.wikidata.org/entity/Q265270" cert="high" role="aut" type="real">Joanna Russ</persName></byline>
 
          <p>What did we talk about?</p>
-         <p>I don't remember. We talked so hard and sat so still that I got cramps in my knees. We
+         <p cert="medium" part="Y" xml:space="default">I don't remember. We talked so hard and sat so still that I got cramps in my knees. We
             had too many cups of tea and then didn't want to leave the table to go to the bathroom
             because we didn’t want to stop talking. You will think we talked of revolution but we
             didn't. Nor did we talk of our own souls. Nor of sewing. Nor of babies. Nor of
@@ -941,8 +1100,8 @@
             split in her economic situation. We talked about <persName key="Murasaki Shikibu" ref="http://www.wikidata.org/entity/Q81731" cert="high" type="real">Lady Murasaki</persName>, who wrote in a form that
             no respectable man would touch, Hroswit, a little name whose plays may perhaps amuse
             myself," <persName key="Lefroy, Anna Austen, 1793-1872" ref="http://viaf.org/viaf/233599001/" cert="medium">Miss Austen</persName> who had no more expression in society than a firescreen or a poker.
-            They did not all write letters, write memoirs, or go on the stage. Sappho—only an
-            ambiguous, somewhat disagreeable name. Corinna? The teacher of Pindar. Olive Schreiner,
+            They did not all write letters, write memoirs, or go on the stage. <persName key="Sappho" ref="http://www.wikidata.org/entity/Q17892" cert="high" type="real">Sappho</persName>—only an
+            ambiguous, somewhat disagreeable name. Corinna? The teacher of <persName key="Pindar" ref="http://www.wikidata.org/entity/Q134929">Pindar</persName>. Olive Schreiner,
             growing up on the veldt, wrote one book, married happily, and never wrote another.
             Kate Chopin wrote a scandalous book and never wrote another. (Jean has written nothing.)
             There was <corr cert="high" evidence="internal" instant="unknown" xml:space="default">Mary</corr> <corr cert="high" evidence="internal" instant="unknown" xml:space="default">Shelley</corr> who wrote you know what and <corr cert="high" evidence="internal" instant="unknown" xml:space="default">Charlotte</corr> P-rk-ns G-Im-n, who wrote
